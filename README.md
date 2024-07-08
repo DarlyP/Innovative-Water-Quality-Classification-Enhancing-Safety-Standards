@@ -5,20 +5,19 @@
 ---
 
 
-## Sumber Data
+## Data Source
 
 Kaggle: [Water Quality](https://www.kaggle.com/datasets/mssmartypants/water-quality).
 
 ---
 
-## Objektif
+## Introduction
 
 Dalam rangka meningkatkan kualitas air dan mendukung pertumbuhan perusahaan secara berkelanjutan, diadakan upaya untuk mengidentifikasi, menganalisis, dan mengatasi pencemaran air. Dengan pendekatan berbasis data, fokus terletak pada menghasilkan solusi yang tidak hanya menguntungkan perusahaan, tetapi juga memberikan dampak positif yang signifikan pada kesehatan masyarakat dan kelestarian lingkungan. Dengan upaya holistik dan strategis, tujuannya adalah membentuk masa depan yang lebih bersih dan lebih berkelanjutan bagi semua pihak yang terlibat.
 
 ---
 
-
-## Kesimpulan
+## Conclusion
 
 Kesimpulan yang diperoleh dari analisis data ini adalah sebagai berikut:
 
@@ -52,7 +51,7 @@ Kesimpulan yang diperoleh dari analisis data ini adalah sebagai berikut:
 
 ---
 
-## Evaluasi Model
+## Model Evaluation
 
 Berdasarkan performa model yang digunakan yakni Support Vector Machine (SVM) ada beberapa masukan yang bisa diberikan:
 
