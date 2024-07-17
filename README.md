@@ -53,6 +53,20 @@ The conclusions drawn from this data analysis are as follows:
 
 ---
 
+## Model Development
+
+- It is recommended to use optimal C parameter tuning.
+  
+- Consider using other kernels such as RBF, polynomial, or sigmoid.
+
+- When dealing with large datasets, it is advisable to use PCA (Principal Component Analysis).
+
+- Increasing the amount of data can be beneficial.
+
+- Perform data balancing techniques.
+
+---
+
 ## Deployment Model
 
 Hugging Face: [Water Quality](https://huggingface.co/spaces/darly9991/Water_Quality).
