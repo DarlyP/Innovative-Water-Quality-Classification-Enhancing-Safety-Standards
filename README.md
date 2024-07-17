@@ -4,6 +4,17 @@
 
 ---
 
+## Tools
+
+[<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />](https://pandas.pydata.org/)
+[<img src="https://img.shields.io/badge/Seaborn-388E3C?style=for-the-badge&logo=seaborn&logoColor=white" alt="Seaborn" />](https://seaborn.pydata.org/)
+[<img src="https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="Numpy" />](https://numpy.org/)
+[<img src="https://img.shields.io/badge/Matplotlib-3776AB?style=for-the-badge&logo=matplotlib&logoColor=white" alt="Matplotlib" />](https://matplotlib.org/)
+[<img src="https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white" alt="SciPy" />](https://www.scipy.org/)
+[<img src="https://img.shields.io/badge/Scikit%20learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-learn" />](https://scikit-learn.org/)
+[<img src="https://img.shields.io/badge/XGBoost-016E54?style=for-the-badge&logo=xgboost&logoColor=white" alt="XGBoost" />](https://xgboost.ai/)
+
+---
 
 ## Data Source
 
@@ -13,75 +24,32 @@ Kaggle: [Water Quality](https://www.kaggle.com/datasets/mssmartypants/water-qual
 
 ## Introduction
 
-Dalam rangka meningkatkan kualitas air dan mendukung pertumbuhan perusahaan secara berkelanjutan, diadakan upaya untuk mengidentifikasi, menganalisis, dan mengatasi pencemaran air. Dengan pendekatan berbasis data, fokus terletak pada menghasilkan solusi yang tidak hanya menguntungkan perusahaan, tetapi juga memberikan dampak positif yang signifikan pada kesehatan masyarakat dan kelestarian lingkungan. Dengan upaya holistik dan strategis, tujuannya adalah membentuk masa depan yang lebih bersih dan lebih berkelanjutan bagi semua pihak yang terlibat.
+To improve water quality and support sustainable company growth, efforts are being made to identify, analyze, and address water pollution. Utilizing a data-driven approach, the focus is on generating solutions that benefit the company while also creating significant positive impacts on public health and environmental sustainability. Through holistic and strategic efforts, the goal is to shape a cleaner and more sustainable future for all stakeholders involved.
 
 ---
 
 ## Conclusion
 
-Kesimpulan yang diperoleh dari analisis data ini adalah sebagai berikut:
+The conclusions drawn from this data analysis are as follows:
 
-1. **Industri Berat dan Pertambangan Logam:**
+1. **Heavy Industry and Metal Mining:**
+   - This area likely represents a heavy industrial zone associated with metal mining activities such as zinc, tin, or copper.
+   - Heavy industrial activities like metal manufacturing, waste processing, or chemical production may lead to the release of various heavy metals into the surrounding environment.
 
-    - Daerah ini kemungkinan merupakan area industri berat yang terkait dengan aktivitas pertambangan logam seperti seng, timah, atau tembaga.
+2. **Poor Sanitation Infrastructure:**
+   - Inadequate sanitation infrastructure or lack of proper sanitation facilities can lead to water pollution with bacteria, viruses, and harmful chemical compounds.
+   - Ineffective wastewater treatment systems can contaminate surface water and groundwater.
 
-    - Kegiatan industri berat seperti manufaktur logam, pengolahan limbah, atau produksi bahan kimia dapat menyebabkan pelepasan berbagai logam berat ke lingkungan sekitarnya.
+3. **High Geological Activity:**
+   - There is a possibility of high geological activity such as volcanism or the formation of rocks rich in certain minerals, which can lead to water containing toxic compounds like arsenic, uranium, and radium.
 
-2. **Infrastruktur Sanitasi yang Buruk:**
+4. **Mining Waste Impact:**
+   - Poorly managed mining waste can pollute surface water and groundwater with heavy metals such as cadmium, aluminum, and selenium.
+   - Washing processes or mining tailings can increase the risk of water contamination in surrounding areas.
 
-    - Infrastruktur sanitasi yang tidak memadai atau kurangnya fasilitas sanitasi yang layak dapat menyebabkan pencemaran air dengan bakteri, virus, dan senyawa kimia berbahaya.
-
-    - Sistem pengolahan air limbah yang tidak efektif dapat mencemari sumber air permukaan dan air tanah.
-
-3.  **Aktivitas Geologis Tinggi:**
-
-    - Kemungkinan adanya aktivitas geologis yang tinggi seperti vulkanisme atau pembentukan batuan yang kaya akan mineral tertentu dapat menyebabkan air mengandung senyawa-senyawa beracun seperti arsenik, uranium, dan radium.
-
-4.  **Dampak Limbah Pertambangan:**
-
-    - Limbah pertambangan yang tidak terkelola dengan baik dapat mencemari air permukaan dan air tanah dengan logam-logam berat seperti cadmium, aluminium, dan selenium.
-
-    - Proses pencucian atau limbah tailing dari pertambangan logam dapat meningkatkan risiko kontaminasi air di daerah sekitar.
-
-5. **Kesehatan Masyarakat:**
-
-    - Air yang tercemar dengan bakteri, virus, dan logam berat dapat menjadi sumber penyakit yang serius bagi masyarakat setempat.
-
-    - Masalah pencemaran air yang ada memerlukan tindakan remediasi dan pengelolaan lingkungan yang ketat untuk melindungi kesehatan masyarakat dan menjaga keberlanjutan lingkungan.
-
----
-
-## Model Evaluation
-
-Berdasarkan performa model yang digunakan yakni Support Vector Machine (SVM) ada beberapa masukan yang bisa diberikan:
-
-1. Kelebihan:
-
-    - Kemampuan menangani data non-linear saat menghadapi masalah kualitas air yang mungkin memiliki pola yang kompleks dan tidak linear.
-
-    - Kemampuan menangani data berdimensi tinggiyang sering terjadi dalam analisis kualitas air di mana data dapat berasal dari berbagai sumber dan parameter yang berbeda.
-
-    - Resisten terhadap *overfitting*
-
-2. Kekurangan:
-
-    - Membutuhkan waktu yang lama terlebih jika menggunakan kernel yang lebih kompleks
-
-    - Tidak efisien untuk data yang besar 
-
-    - Cenderung menangkap nilai 0 (Dangerous)
-
-3. Saran untuk peningkatan:
-
-    - Disarankan untuk menggunakan parameter C yang optimal
-
-    - Gunakaan kernel yang lain seperti RBF, polynominal atau sigmoid
-
-    - Jika menghadapi data yang besar, disarankan menggunakan PCA
-
-    - Lebih memperbanyak data 
-    
-    - Melakukan *data balancing*
+5. **Public Health:**
+   - Water contaminated with bacteria, viruses, and heavy metals can pose serious health risks to local communities.
+   - Addressing existing water pollution issues requires remediation efforts and stringent environmental management to protect public health and sustain the environment.
 
 ---
 
@@ -91,6 +59,6 @@ Hugging Face: [Water Quality](https://huggingface.co/spaces/darly9991/Water_Qual
 
 ---
 
-**Disclaimer**: Notebook ini dibuat semata-mata untuk tujuan pembelajaran dan eksplorasi. Tidak ada maksud untuk menyinggung atau merugikan pihak mana pun. Segala konten dan analisis yang disajikan didasarkan pada data publik yang tersedia secara online. Saya melakukan proses ini untuk meningkatkan pemahaman tentang teknik dan metodologi analisis data, serta untuk mengasah keterampilan dalam mengimplementasikan algoritma dan model yang relevan dalam konteks pembelajaran data science.
-
-Dalam melakukan analisis ini, saya berusaha menjaga objektivitas dan profesionalitas dalam menginterpretasikan data yang ada. Segala kesimpulan atau rekomendasi yang disampaikan merupakan hasil dari analisis pribadi dan tidak bermaksud sebagai saran profesional dalam kapasitas tertentu. Saya berharap informasi yang diperoleh dari notebook ini dapat bermanfaat bagi siapa pun yang membacanya untuk kepentingan belajar dan pengembangan keterampilan analisis data.
+**Disclaimer**: 
+- This notebook is created solely for learning and exploration purposes. There is no intention to offend or harm any party. All content and analysis presented are based on publicly available data online. I undertake this process to enhance my understanding of data analysis techniques and methodologies and hone my skills in implementing relevant algorithms and models within the context of data science learning. In conducting this analysis, I strive to maintain objectivity and professionalism in interpreting the existing data. Any conclusions or recommendations provided result from personal analysis and are not intended as professional advice in any specific capacity. I hope the information obtained from this notebook can be useful to anyone reading it to learn and develop data analysis skills.
+- This notebook is written in Indonesian.
