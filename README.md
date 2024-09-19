@@ -1,6 +1,6 @@
 ![Water](https://github.com/DarlyP/Water-Quality-Analysis-Using-Machine-Learning/blob/main/Notebook/water.jpg)
 
-# Water Quality Analysis Using Machine Learning
+# Innovative Water Quality Classification Enhancing Safety Standards
 
 ---
 
